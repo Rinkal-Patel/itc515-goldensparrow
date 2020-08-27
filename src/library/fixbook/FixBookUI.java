@@ -54,9 +54,9 @@ public class FixBookUI {
 				break;	
 				
 			case FIXING:
-				String AnS = input("Fix Book? (Y/N) : "); //changed input from InPuT
+				String ans = input("Fix Book? (Y/N) : "); //changed input from InPuT and changed ans from AnS
 				boolean fix = false; //Changed fix from FiX
-				if (AnS.toUpperCase().equals("Y")) {
+				if (ans.toUpperCase().equals("Y")) { //changed ans from AnS
 					fix = true; //Changed fix from FiX
 				}
 				control.fixBook(fix); //changed control from CoNtRoL and changed from FiX_BoOk to fixBook
